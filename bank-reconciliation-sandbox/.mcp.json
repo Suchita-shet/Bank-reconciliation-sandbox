@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bank-reconciliation": {
+      "command": "python",
+      "args": ["-m", "bankrecon.mcp_server"]
+    }
+  }
+}

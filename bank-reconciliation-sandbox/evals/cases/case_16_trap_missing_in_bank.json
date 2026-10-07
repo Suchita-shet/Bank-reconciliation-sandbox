@@ -1,0 +1,88 @@
+{
+  "case_id": "case_16",
+  "name": "trap_missing_in_bank",
+  "trap": true,
+  "note": "Old ledger payment never reached the bank. Not just timing.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-20",
+      "description": "Payment Falcon Travel",
+      "amount": -4947.25,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-18",
+      "description": "Payment Cedar Office Rentals",
+      "amount": 3189.04,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-18",
+      "description": "Payment Acme Supplies",
+      "amount": -4771.62,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-20",
+      "description": "Payment Falcon Travel",
+      "amount": -4947.25,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-18",
+      "description": "Payment Cedar Office Rentals",
+      "amount": 3189.04,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-18",
+      "description": "Payment Acme Supplies",
+      "amount": -4771.62,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-04",
+      "description": "Payment Ionic Marketing",
+      "amount": -5333.18,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B2",
+        "L2"
+      ],
+      [
+        "B3",
+        "L3"
+      ]
+    ],
+    "unmatched_bank": [],
+    "unmatched_ledger": [
+      "L4"
+    ],
+    "flags": [
+      {
+        "type": "MISSING_IN_BANK",
+        "ids": [
+          "L4"
+        ]
+      }
+    ]
+  }
+}

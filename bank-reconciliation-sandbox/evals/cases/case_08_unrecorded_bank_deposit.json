@@ -1,0 +1,106 @@
+{
+  "case_id": "case_08",
+  "name": "unrecorded_bank_deposit",
+  "trap": false,
+  "note": "Customer paid directly; nothing in the ledger yet.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-06",
+      "description": "Payment Ionic Marketing",
+      "amount": -3115.44,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-21",
+      "description": "Payment Acme Supplies",
+      "amount": 7871.59,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-20",
+      "description": "Payment Brightway Logistics",
+      "amount": -6049.61,
+      "reference": ""
+    },
+    {
+      "id": "B4",
+      "date": "2025-03-07",
+      "description": "Payment Falcon Travel",
+      "amount": -2062.27,
+      "reference": ""
+    },
+    {
+      "id": "B5",
+      "date": "2025-03-09",
+      "description": "Deposit Quartz Labs",
+      "amount": 2841.17,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-06",
+      "description": "Payment Ionic Marketing",
+      "amount": -3115.44,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-21",
+      "description": "Payment Acme Supplies",
+      "amount": 7871.59,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-20",
+      "description": "Payment Brightway Logistics",
+      "amount": -6049.61,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-07",
+      "description": "Payment Falcon Travel",
+      "amount": -2062.27,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B2",
+        "L2"
+      ],
+      [
+        "B3",
+        "L3"
+      ],
+      [
+        "B4",
+        "L4"
+      ]
+    ],
+    "unmatched_bank": [
+      "B5"
+    ],
+    "unmatched_ledger": [],
+    "flags": [
+      {
+        "type": "UNRECORDED_BANK_ITEM",
+        "ids": [
+          "B5"
+        ]
+      }
+    ]
+  }
+}

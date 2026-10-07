@@ -1,0 +1,126 @@
+{
+  "case_id": "case_01",
+  "name": "clean_all_match",
+  "trap": false,
+  "note": "Everything matches on the same day.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-05",
+      "description": "Payment Acme Supplies",
+      "amount": 7775.32,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-16",
+      "description": "Payment Ionic Marketing",
+      "amount": -7090.19,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-15",
+      "description": "Payment Lumen Print",
+      "amount": -5112.82,
+      "reference": ""
+    },
+    {
+      "id": "B4",
+      "date": "2025-03-04",
+      "description": "Payment Juniper Payroll",
+      "amount": 5501.51,
+      "reference": ""
+    },
+    {
+      "id": "B5",
+      "date": "2025-03-22",
+      "description": "Payment Acme Supplies",
+      "amount": -6457.26,
+      "reference": ""
+    },
+    {
+      "id": "B6",
+      "date": "2025-03-22",
+      "description": "Payment Lumen Print",
+      "amount": 8189.4,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-05",
+      "description": "Payment Acme Supplies",
+      "amount": 7775.32,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-16",
+      "description": "Payment Ionic Marketing",
+      "amount": -7090.19,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-15",
+      "description": "Payment Lumen Print",
+      "amount": -5112.82,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-04",
+      "description": "Payment Juniper Payroll",
+      "amount": 5501.51,
+      "reference": ""
+    },
+    {
+      "id": "L5",
+      "date": "2025-03-22",
+      "description": "Payment Acme Supplies",
+      "amount": -6457.26,
+      "reference": ""
+    },
+    {
+      "id": "L6",
+      "date": "2025-03-22",
+      "description": "Payment Lumen Print",
+      "amount": 8189.4,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B2",
+        "L2"
+      ],
+      [
+        "B3",
+        "L3"
+      ],
+      [
+        "B4",
+        "L4"
+      ],
+      [
+        "B5",
+        "L5"
+      ],
+      [
+        "B6",
+        "L6"
+      ]
+    ],
+    "unmatched_bank": [],
+    "unmatched_ledger": [],
+    "flags": []
+  }
+}

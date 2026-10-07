@@ -1,0 +1,106 @@
+{
+  "case_id": "case_04",
+  "name": "deposit_in_transit",
+  "trap": false,
+  "note": "A deposit recorded on the last day is not on the statement yet.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-22",
+      "description": "Payment Granite Legal",
+      "amount": 8786.88,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-09",
+      "description": "Payment Ionic Marketing",
+      "amount": 6972.04,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-07",
+      "description": "Payment Falcon Travel",
+      "amount": 6326.96,
+      "reference": ""
+    },
+    {
+      "id": "B4",
+      "date": "2025-03-10",
+      "description": "Payment Juniper Payroll",
+      "amount": -692.82,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-22",
+      "description": "Payment Granite Legal",
+      "amount": 8786.88,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-09",
+      "description": "Payment Ionic Marketing",
+      "amount": 6972.04,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-07",
+      "description": "Payment Falcon Travel",
+      "amount": 6326.96,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-10",
+      "description": "Payment Juniper Payroll",
+      "amount": -692.82,
+      "reference": ""
+    },
+    {
+      "id": "L5",
+      "date": "2025-03-31",
+      "description": "Deposit Northwind Retail",
+      "amount": 4882.46,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B2",
+        "L2"
+      ],
+      [
+        "B3",
+        "L3"
+      ],
+      [
+        "B4",
+        "L4"
+      ]
+    ],
+    "unmatched_bank": [],
+    "unmatched_ledger": [
+      "L5"
+    ],
+    "flags": [
+      {
+        "type": "OUTSTANDING",
+        "ids": [
+          "L5"
+        ]
+      }
+    ]
+  }
+}

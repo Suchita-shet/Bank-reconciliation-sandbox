@@ -1,0 +1,90 @@
+{
+  "case_id": "case_07",
+  "name": "reference_priority",
+  "trap": false,
+  "note": "Cheque cleared 10 days late; the reference number links them.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-15",
+      "description": "Cheque 1042 Granite Legal",
+      "amount": -2711.88,
+      "reference": "CHQ1042"
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-08",
+      "description": "Payment Juniper Payroll",
+      "amount": 7992.12,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-20",
+      "description": "Payment Delta Software",
+      "amount": 5734.42,
+      "reference": ""
+    },
+    {
+      "id": "B4",
+      "date": "2025-03-22",
+      "description": "Payment Acme Supplies",
+      "amount": -5241.07,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-05",
+      "description": "Cheque 1042 Granite Legal",
+      "amount": -2711.88,
+      "reference": "CHQ1042"
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-08",
+      "description": "Payment Juniper Payroll",
+      "amount": 7992.12,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-20",
+      "description": "Payment Delta Software",
+      "amount": 5734.42,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-22",
+      "description": "Payment Acme Supplies",
+      "amount": -5241.07,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B2",
+        "L2"
+      ],
+      [
+        "B3",
+        "L3"
+      ],
+      [
+        "B4",
+        "L4"
+      ]
+    ],
+    "unmatched_bank": [],
+    "unmatched_ledger": [],
+    "flags": []
+  }
+}

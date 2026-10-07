@@ -1,0 +1,545 @@
+{
+  "case_id": "case_10",
+  "name": "larger_volume",
+  "trap": false,
+  "note": "30 bank lines with a handful of exceptions.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-16",
+      "description": "Payment Keystone Telecom",
+      "amount": 4846.17,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-17",
+      "description": "Payment Granite Legal",
+      "amount": -1545.9,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-21",
+      "description": "Payment Lumen Print",
+      "amount": 1033.34,
+      "reference": ""
+    },
+    {
+      "id": "B4",
+      "date": "2025-03-24",
+      "description": "Payment Keystone Telecom",
+      "amount": -8970.41,
+      "reference": ""
+    },
+    {
+      "id": "B5",
+      "date": "2025-03-22",
+      "description": "Payment Lumen Print",
+      "amount": 3576.16,
+      "reference": ""
+    },
+    {
+      "id": "B6",
+      "date": "2025-03-04",
+      "description": "Payment Lumen Print",
+      "amount": -4705.97,
+      "reference": ""
+    },
+    {
+      "id": "B7",
+      "date": "2025-03-09",
+      "description": "Payment Ionic Marketing",
+      "amount": -6739.31,
+      "reference": ""
+    },
+    {
+      "id": "B8",
+      "date": "2025-03-06",
+      "description": "Payment Cedar Office Rentals",
+      "amount": 8986.9,
+      "reference": ""
+    },
+    {
+      "id": "B9",
+      "date": "2025-03-03",
+      "description": "Payment Delta Software",
+      "amount": -1035.42,
+      "reference": ""
+    },
+    {
+      "id": "B10",
+      "date": "2025-03-05",
+      "description": "Payment Keystone Telecom",
+      "amount": 643.0,
+      "reference": ""
+    },
+    {
+      "id": "B11",
+      "date": "2025-03-11",
+      "description": "Payment Juniper Payroll",
+      "amount": 2593.31,
+      "reference": ""
+    },
+    {
+      "id": "B12",
+      "date": "2025-03-15",
+      "description": "Payment Delta Software",
+      "amount": 2114.33,
+      "reference": ""
+    },
+    {
+      "id": "B13",
+      "date": "2025-03-19",
+      "description": "Payment Juniper Payroll",
+      "amount": -2203.94,
+      "reference": ""
+    },
+    {
+      "id": "B14",
+      "date": "2025-03-06",
+      "description": "Payment Delta Software",
+      "amount": -1329.77,
+      "reference": ""
+    },
+    {
+      "id": "B15",
+      "date": "2025-03-17",
+      "description": "Payment Keystone Telecom",
+      "amount": -4326.86,
+      "reference": ""
+    },
+    {
+      "id": "B16",
+      "date": "2025-03-25",
+      "description": "Payment Acme Supplies",
+      "amount": -1680.79,
+      "reference": ""
+    },
+    {
+      "id": "B17",
+      "date": "2025-03-03",
+      "description": "Payment Delta Software",
+      "amount": -7862.63,
+      "reference": ""
+    },
+    {
+      "id": "B18",
+      "date": "2025-03-20",
+      "description": "Payment Brightway Logistics",
+      "amount": 3502.7,
+      "reference": ""
+    },
+    {
+      "id": "B19",
+      "date": "2025-03-11",
+      "description": "Payment Brightway Logistics",
+      "amount": -8783.43,
+      "reference": ""
+    },
+    {
+      "id": "B20",
+      "date": "2025-03-21",
+      "description": "Payment Delta Software",
+      "amount": 970.61,
+      "reference": ""
+    },
+    {
+      "id": "B21",
+      "date": "2025-03-06",
+      "description": "Payment Harbor Insurance",
+      "amount": -401.15,
+      "reference": ""
+    },
+    {
+      "id": "B22",
+      "date": "2025-03-06",
+      "description": "Payment Ionic Marketing",
+      "amount": 1718.12,
+      "reference": ""
+    },
+    {
+      "id": "B23",
+      "date": "2025-03-12",
+      "description": "Payment Juniper Payroll",
+      "amount": 6385.3,
+      "reference": ""
+    },
+    {
+      "id": "B24",
+      "date": "2025-03-12",
+      "description": "Payment Acme Supplies",
+      "amount": 2227.92,
+      "reference": ""
+    },
+    {
+      "id": "B25",
+      "date": "2025-03-13",
+      "description": "Payment Evergreen Utilities",
+      "amount": -7152.55,
+      "reference": ""
+    },
+    {
+      "id": "B26",
+      "date": "2025-03-29",
+      "description": "Account maintenance charge",
+      "amount": -30.0,
+      "reference": ""
+    },
+    {
+      "id": "B27",
+      "date": "2025-03-11",
+      "description": "Deposit Quartz Labs",
+      "amount": 1992.43,
+      "reference": ""
+    },
+    {
+      "id": "B28",
+      "date": "2025-03-09",
+      "description": "Payment Harbor Insurance",
+      "amount": 3943.97,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-16",
+      "description": "Payment Keystone Telecom",
+      "amount": 4846.17,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-16",
+      "description": "Payment Granite Legal",
+      "amount": -1545.9,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-19",
+      "description": "Payment Lumen Print",
+      "amount": 1033.34,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-21",
+      "description": "Payment Keystone Telecom",
+      "amount": -8970.41,
+      "reference": ""
+    },
+    {
+      "id": "L5",
+      "date": "2025-03-22",
+      "description": "Payment Lumen Print",
+      "amount": 3576.16,
+      "reference": ""
+    },
+    {
+      "id": "L6",
+      "date": "2025-03-03",
+      "description": "Payment Lumen Print",
+      "amount": -4705.97,
+      "reference": ""
+    },
+    {
+      "id": "L7",
+      "date": "2025-03-07",
+      "description": "Payment Ionic Marketing",
+      "amount": -6739.31,
+      "reference": ""
+    },
+    {
+      "id": "L8",
+      "date": "2025-03-03",
+      "description": "Payment Cedar Office Rentals",
+      "amount": 8986.9,
+      "reference": ""
+    },
+    {
+      "id": "L9",
+      "date": "2025-03-03",
+      "description": "Payment Delta Software",
+      "amount": -1035.42,
+      "reference": ""
+    },
+    {
+      "id": "L10",
+      "date": "2025-03-04",
+      "description": "Payment Keystone Telecom",
+      "amount": 643.0,
+      "reference": ""
+    },
+    {
+      "id": "L11",
+      "date": "2025-03-09",
+      "description": "Payment Juniper Payroll",
+      "amount": 2593.31,
+      "reference": ""
+    },
+    {
+      "id": "L12",
+      "date": "2025-03-12",
+      "description": "Payment Delta Software",
+      "amount": 2114.33,
+      "reference": ""
+    },
+    {
+      "id": "L13",
+      "date": "2025-03-19",
+      "description": "Payment Juniper Payroll",
+      "amount": -2203.94,
+      "reference": ""
+    },
+    {
+      "id": "L14",
+      "date": "2025-03-05",
+      "description": "Payment Delta Software",
+      "amount": -1329.77,
+      "reference": ""
+    },
+    {
+      "id": "L15",
+      "date": "2025-03-15",
+      "description": "Payment Keystone Telecom",
+      "amount": -4326.86,
+      "reference": ""
+    },
+    {
+      "id": "L16",
+      "date": "2025-03-22",
+      "description": "Payment Acme Supplies",
+      "amount": -1680.79,
+      "reference": ""
+    },
+    {
+      "id": "L17",
+      "date": "2025-03-03",
+      "description": "Payment Delta Software",
+      "amount": -7862.63,
+      "reference": ""
+    },
+    {
+      "id": "L18",
+      "date": "2025-03-19",
+      "description": "Payment Brightway Logistics",
+      "amount": 3502.7,
+      "reference": ""
+    },
+    {
+      "id": "L19",
+      "date": "2025-03-09",
+      "description": "Payment Brightway Logistics",
+      "amount": -8783.43,
+      "reference": ""
+    },
+    {
+      "id": "L20",
+      "date": "2025-03-18",
+      "description": "Payment Delta Software",
+      "amount": 970.61,
+      "reference": ""
+    },
+    {
+      "id": "L21",
+      "date": "2025-03-06",
+      "description": "Payment Harbor Insurance",
+      "amount": -401.15,
+      "reference": ""
+    },
+    {
+      "id": "L22",
+      "date": "2025-03-05",
+      "description": "Payment Ionic Marketing",
+      "amount": 1718.12,
+      "reference": ""
+    },
+    {
+      "id": "L23",
+      "date": "2025-03-10",
+      "description": "Payment Juniper Payroll",
+      "amount": 6385.3,
+      "reference": ""
+    },
+    {
+      "id": "L24",
+      "date": "2025-03-09",
+      "description": "Payment Acme Supplies",
+      "amount": 2227.92,
+      "reference": ""
+    },
+    {
+      "id": "L25",
+      "date": "2025-03-13",
+      "description": "Payment Evergreen Utilities",
+      "amount": -7152.55,
+      "reference": ""
+    },
+    {
+      "id": "L26",
+      "date": "2025-03-27",
+      "description": "Cheque Ionic Marketing",
+      "amount": -1993.6,
+      "reference": ""
+    },
+    {
+      "id": "L27",
+      "date": "2025-03-05",
+      "description": "Payment Harbor Insurance",
+      "amount": -535.01,
+      "reference": ""
+    },
+    {
+      "id": "L28",
+      "date": "2025-03-08",
+      "description": "Payment Harbor Insurance",
+      "amount": 3943.97,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B2",
+        "L2"
+      ],
+      [
+        "B3",
+        "L3"
+      ],
+      [
+        "B4",
+        "L4"
+      ],
+      [
+        "B5",
+        "L5"
+      ],
+      [
+        "B6",
+        "L6"
+      ],
+      [
+        "B7",
+        "L7"
+      ],
+      [
+        "B8",
+        "L8"
+      ],
+      [
+        "B9",
+        "L9"
+      ],
+      [
+        "B10",
+        "L10"
+      ],
+      [
+        "B11",
+        "L11"
+      ],
+      [
+        "B12",
+        "L12"
+      ],
+      [
+        "B13",
+        "L13"
+      ],
+      [
+        "B14",
+        "L14"
+      ],
+      [
+        "B15",
+        "L15"
+      ],
+      [
+        "B16",
+        "L16"
+      ],
+      [
+        "B17",
+        "L17"
+      ],
+      [
+        "B18",
+        "L18"
+      ],
+      [
+        "B19",
+        "L19"
+      ],
+      [
+        "B20",
+        "L20"
+      ],
+      [
+        "B21",
+        "L21"
+      ],
+      [
+        "B22",
+        "L22"
+      ],
+      [
+        "B23",
+        "L23"
+      ],
+      [
+        "B24",
+        "L24"
+      ],
+      [
+        "B25",
+        "L25"
+      ],
+      [
+        "B28",
+        "L28"
+      ]
+    ],
+    "unmatched_bank": [
+      "B26",
+      "B27"
+    ],
+    "unmatched_ledger": [
+      "L26",
+      "L27"
+    ],
+    "flags": [
+      {
+        "type": "BANK_ONLY",
+        "ids": [
+          "B26"
+        ]
+      },
+      {
+        "type": "MISSING_IN_BANK",
+        "ids": [
+          "L27"
+        ]
+      },
+      {
+        "type": "OUTSTANDING",
+        "ids": [
+          "L26"
+        ]
+      },
+      {
+        "type": "UNRECORDED_BANK_ITEM",
+        "ids": [
+          "B27"
+        ]
+      }
+    ]
+  }
+}

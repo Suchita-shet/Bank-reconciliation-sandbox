@@ -1,0 +1,90 @@
+{
+  "case_id": "case_12",
+  "name": "descriptions_differ",
+  "trap": false,
+  "note": "Bank descriptions differ from ledger wording; amount and date still decide.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-16",
+      "description": "ACH DEBIT ACME SUPP 0331",
+      "amount": -1493.43,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-14",
+      "description": "DEP ORION HLTH",
+      "amount": 5481.7,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-18",
+      "description": "CARD 4412 DELTASOFT",
+      "amount": -5885.01,
+      "reference": ""
+    },
+    {
+      "id": "B4",
+      "date": "2025-03-17",
+      "description": "Payment Ionic Marketing",
+      "amount": 5833.06,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-15",
+      "description": "Payment Acme Supplies",
+      "amount": -1493.43,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-14",
+      "description": "Deposit Orion Health",
+      "amount": 5481.7,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-16",
+      "description": "Payment Delta Software",
+      "amount": -5885.01,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-17",
+      "description": "Payment Ionic Marketing",
+      "amount": 5833.06,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B2",
+        "L2"
+      ],
+      [
+        "B3",
+        "L3"
+      ],
+      [
+        "B4",
+        "L4"
+      ]
+    ],
+    "unmatched_bank": [],
+    "unmatched_ledger": [],
+    "flags": []
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "case_id": "case_02",
+  "name": "bank_fee_and_interest",
+  "trap": false,
+  "note": "Fee and interest appear only on the bank statement.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-07",
+      "description": "Payment Ionic Marketing",
+      "amount": -8101.78,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-21",
+      "description": "Payment Cedar Office Rentals",
+      "amount": -4396.9,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-16",
+      "description": "Payment Juniper Payroll",
+      "amount": 6388.92,
+      "reference": ""
+    },
+    {
+      "id": "B4",
+      "date": "2025-03-04",
+      "description": "Payment Ionic Marketing",
+      "amount": 2238.91,
+      "reference": ""
+    },
+    {
+      "id": "B5",
+      "date": "2025-03-28",
+      "description": "Monthly service fee",
+      "amount": -25.0,
+      "reference": ""
+    },
+    {
+      "id": "B6",
+      "date": "2025-03-29",
+      "description": "Interest earned",
+      "amount": 2.09,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-07",
+      "description": "Payment Ionic Marketing",
+      "amount": -8101.78,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-21",
+      "description": "Payment Cedar Office Rentals",
+      "amount": -4396.9,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-16",
+      "description": "Payment Juniper Payroll",
+      "amount": 6388.92,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-04",
+      "description": "Payment Ionic Marketing",
+      "amount": 2238.91,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B2",
+        "L2"
+      ],
+      [
+        "B3",
+        "L3"
+      ],
+      [
+        "B4",
+        "L4"
+      ]
+    ],
+    "unmatched_bank": [
+      "B5",
+      "B6"
+    ],
+    "unmatched_ledger": [],
+    "flags": [
+      {
+        "type": "BANK_ONLY",
+        "ids": [
+          "B5"
+        ]
+      },
+      {
+        "type": "BANK_ONLY",
+        "ids": [
+          "B6"
+        ]
+      }
+    ]
+  }
+}

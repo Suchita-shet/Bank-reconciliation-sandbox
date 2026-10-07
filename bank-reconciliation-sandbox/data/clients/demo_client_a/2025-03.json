@@ -1,0 +1,154 @@
+{
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-05",
+      "description": "Payment Cedar Office Rentals",
+      "amount": 4427.27,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-09",
+      "description": "Payment Lumen Print",
+      "amount": -8283.22,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-05",
+      "description": "Payment Ionic Marketing",
+      "amount": 1989.41,
+      "reference": ""
+    },
+    {
+      "id": "B4",
+      "date": "2025-03-07",
+      "description": "Payment Acme Supplies",
+      "amount": 1830.53,
+      "reference": ""
+    },
+    {
+      "id": "B5",
+      "date": "2025-03-07",
+      "description": "Payment Keystone Telecom",
+      "amount": -1514.35,
+      "reference": ""
+    },
+    {
+      "id": "B6",
+      "date": "2025-03-19",
+      "description": "Payment Juniper Payroll",
+      "amount": -4217.09,
+      "reference": ""
+    },
+    {
+      "id": "B7",
+      "date": "2025-03-10",
+      "description": "Payment Cedar Office Rentals",
+      "amount": -8737.73,
+      "reference": ""
+    },
+    {
+      "id": "B8",
+      "date": "2025-03-10",
+      "description": "Payment Cedar Office Rentals",
+      "amount": -7792.17,
+      "reference": ""
+    },
+    {
+      "id": "B9",
+      "date": "2025-03-28",
+      "description": "Wire transfer fee",
+      "amount": -15.0,
+      "reference": ""
+    },
+    {
+      "id": "B10",
+      "date": "2025-03-26",
+      "description": "Interest earned",
+      "amount": 1.61,
+      "reference": ""
+    },
+    {
+      "id": "B11",
+      "date": "2025-03-09",
+      "description": "Deposit Redwood Studios",
+      "amount": 3771.18,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-05",
+      "description": "Payment Cedar Office Rentals",
+      "amount": 4427.27,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-08",
+      "description": "Payment Lumen Print",
+      "amount": -8283.22,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-05",
+      "description": "Payment Ionic Marketing",
+      "amount": 1989.41,
+      "reference": ""
+    },
+    {
+      "id": "L4",
+      "date": "2025-03-05",
+      "description": "Payment Acme Supplies",
+      "amount": 1830.53,
+      "reference": ""
+    },
+    {
+      "id": "L5",
+      "date": "2025-03-06",
+      "description": "Payment Keystone Telecom",
+      "amount": -1514.35,
+      "reference": ""
+    },
+    {
+      "id": "L6",
+      "date": "2025-03-19",
+      "description": "Payment Juniper Payroll",
+      "amount": -4217.09,
+      "reference": ""
+    },
+    {
+      "id": "L7",
+      "date": "2025-03-07",
+      "description": "Payment Cedar Office Rentals",
+      "amount": -8737.73,
+      "reference": ""
+    },
+    {
+      "id": "L8",
+      "date": "2025-03-09",
+      "description": "Payment Cedar Office Rentals",
+      "amount": -7792.17,
+      "reference": ""
+    },
+    {
+      "id": "L9",
+      "date": "2025-03-29",
+      "description": "Cheque Harbor Insurance",
+      "amount": -4167.26,
+      "reference": ""
+    },
+    {
+      "id": "L10",
+      "date": "2025-03-31",
+      "description": "Deposit Pioneer Foods",
+      "amount": 2217.99,
+      "reference": ""
+    }
+  ]
+}

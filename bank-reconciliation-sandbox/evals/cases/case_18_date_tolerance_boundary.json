@@ -1,0 +1,85 @@
+{
+  "case_id": "case_18",
+  "name": "date_tolerance_boundary",
+  "trap": false,
+  "note": "Gap of 3 days matches; gap of 4 does not.",
+  "period_end": "2025-03-31",
+  "bank": [
+    {
+      "id": "B1",
+      "date": "2025-03-13",
+      "description": "Payment Granite Legal",
+      "amount": -6404.85,
+      "reference": ""
+    },
+    {
+      "id": "B2",
+      "date": "2025-03-14",
+      "description": "Payment Lumen Print",
+      "amount": -1679.57,
+      "reference": ""
+    },
+    {
+      "id": "B3",
+      "date": "2025-03-08",
+      "description": "Payment Falcon Travel",
+      "amount": 6652.11,
+      "reference": ""
+    }
+  ],
+  "ledger": [
+    {
+      "id": "L1",
+      "date": "2025-03-10",
+      "description": "Payment Granite Legal",
+      "amount": -6404.85,
+      "reference": ""
+    },
+    {
+      "id": "L2",
+      "date": "2025-03-10",
+      "description": "Payment Lumen Print",
+      "amount": -1679.57,
+      "reference": ""
+    },
+    {
+      "id": "L3",
+      "date": "2025-03-08",
+      "description": "Payment Falcon Travel",
+      "amount": 6652.11,
+      "reference": ""
+    }
+  ],
+  "expected": {
+    "matched": [
+      [
+        "B1",
+        "L1"
+      ],
+      [
+        "B3",
+        "L3"
+      ]
+    ],
+    "unmatched_bank": [
+      "B2"
+    ],
+    "unmatched_ledger": [
+      "L2"
+    ],
+    "flags": [
+      {
+        "type": "MISSING_IN_BANK",
+        "ids": [
+          "L2"
+        ]
+      },
+      {
+        "type": "UNRECORDED_BANK_ITEM",
+        "ids": [
+          "B2"
+        ]
+      }
+    ]
+  }
+}
